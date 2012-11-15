@@ -1,5 +1,5 @@
 var shake = (function () {
-	var shake = {}
+	var shake = {},
 		watchId = null,
 		options = { frequency: 300 },
 		previousAcceleration = { x: null, y: null, z: null },
